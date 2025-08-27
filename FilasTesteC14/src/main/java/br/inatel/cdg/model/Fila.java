@@ -28,9 +28,4 @@ public class Fila<T> {
         tamanho--;
         return elemento;
     }
-
-    public T get(T i) {
-        this.enfileirarFila(i);
-        return i;
-    }
 }
